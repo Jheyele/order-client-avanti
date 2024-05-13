@@ -39,7 +39,7 @@ function ClientForm() {
         } else {
             await createClient(data);
         }        
-        navigate("/client-list");
+        navigate("/");
     }
 
     return (
